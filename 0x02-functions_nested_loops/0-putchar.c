@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main."
 
 /**
  * main - Entry point
@@ -8,15 +8,14 @@
 
 int main(void)
 {
-int  m = '_', n = 'p', o = 'u', q = 't', s = 'c', v = 'h', w = 'a', y = 'r';
-putchar(m);
-putchar(n);
-putchar(o);
-putchar(q);
-putchar(s);
-putchar(v);
-putchar(w);
-putchar(y);
-putchar('\n');
+_putchar(m);
+_putchar(n);
+_putchar(o);
+_putchar(q);
+_putchar(s);
+_putchar(v);
+_putchar(w);
+_putchar(y);
+_putchar('\n');
 return (0);
 }
