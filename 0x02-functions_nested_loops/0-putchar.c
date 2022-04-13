@@ -1,23 +1,21 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - Entry point
+ * main - program that prints Holberton.
  *
- * Return: Always 0 (Success)
+ * Return: int
  */
 
 int main(void)
 {
-int  m = '_', n = 'p', o = 'u', q = 't', s = 'c', v = 'h', w = 'a', y = 'r';
-putchar(m);
-putchar(n);
-putchar(o);
-putchar(q);
-putchar(s);
-putchar(v);
-putchar(w);
-putchar(y);
-putchar('\n');
-return (0);
-}
+	int n = 1;
+	char str_put[8] = "_putchar";
 
+	while (n < 9)
+	{
+		_putchar(str_put[n]);
+		n += 1;
+	}
+	_putchar('\n');
+	return (0);
+}
