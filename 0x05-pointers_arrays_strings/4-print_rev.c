@@ -2,6 +2,7 @@
 
 /**
  * print_rev - prints a string in reverse
+ * @s: the string to be reversed
  *
  * returns 0: sucess
  */
