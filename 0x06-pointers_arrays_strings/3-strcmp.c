@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _srncmp - compares two strings
- * @s1 - string 1
- * @s2 _ string 2
+ * _strcmp - compares two strings
+ * @s1:The first string 1
+ * @s2: The second string 2
  *
- * Returns : integer 
+ * Returns : integer
  */
 int _strcmp(char *s1, char *s2);
 {
@@ -29,6 +29,7 @@ int _strcmp(char *s1, char *s2);
 	{
 		tmp = j;
 	}
+
 	while (c <= tmp)
 	{
 		if (s1[i] == s2[j])
@@ -47,8 +48,3 @@ int _strcmp(char *s1, char *s2);
 
 	return (r);
 }
-
-
-
-
-
