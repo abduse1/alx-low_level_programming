@@ -1,14 +1,14 @@
-#include "variadic_functions.h"
-#include <stdio.h>
 #include <stdlib.h>
+#include <stdio.h>
+#include "variadic_functions.h"
 
 /**
- *print_numbers - prints numbers followed by a new line
- *@separator: pointer to separator
- *@n: number of passed arguments
- *
- *Return: void
- */
+  * print_numbers - ...
+  * @separator: ...
+  * @n: ...
+  *
+  * Return: ...
+  */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	va_list args;
@@ -31,3 +31,4 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	}
 	printf("\n");
 }
+
